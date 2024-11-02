@@ -1,0 +1,145 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "$defs" : {
+    "TypeCodeEnum" : {
+      "type" : "string",
+      "enum" : [ "Incorporated", "Registered", "IncorporatedAndRegistered", "Unknown" ]
+    }
+  },
+  "type" : "object",
+  "properties" : {
+    "clientDetails" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "properties" : {
+          "address" : {
+            "type" : "object",
+            "properties" : {
+              "addrLine1" : {
+                "type" : "string",
+                "maxLength" : 100
+              },
+              "addrLine2" : {
+                "type" : "string",
+                "maxLength" : 100
+              },
+              "city" : {
+                "type" : "string",
+                "maxLength" : 100
+              },
+              "countryCode" : {
+                "type" : "string",
+                "maxLength" : 2
+              },
+              "stateCode" : {
+                "type" : "string",
+                "maxLength" : 2
+              }
+            }
+          },
+          "authorizedPersons" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "givenName" : {
+                  "type" : "string",
+                  "maxLength" : 100
+                },
+                "otherNameInitial" : {
+                  "type" : "string",
+                  "maxLength" : 100
+                },
+                "surName" : {
+                  "type" : "string",
+                  "maxLength" : 100
+                }
+              }
+            }
+          },
+          "clientNumber" : {
+            "type" : "string",
+            "maxLength" : 10
+          },
+          "customerNumber" : {
+            "type" : "string",
+            "maxLength" : 20
+          },
+          "identifications" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "jurisdictionOfIssueCountryCode" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "jurisdictionOfIssueProvinceStateCode" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "number" : {
+                  "type" : "string",
+                  "maxLength" : 100
+                },
+                "typeCode" : {
+                  "$ref" : "#/$defs/TypeCodeEnum"
+                }
+              },
+              "required" : [ "typeCode" ]
+            }
+          },
+          "nameOfEntity" : {
+            "type" : "string",
+            "maxLength" : 100
+          },
+          "natureOfPrincipalBusiness" : {
+            "type" : "string",
+            "maxLength" : 200
+          },
+          "registrationIncorporationIndicator" : {
+            "type" : "boolean"
+          },
+          "registrationIncorporations" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "identifierTypeCode" : {
+                  "$ref" : "#/$defs/TypeCodeEnum"
+                },
+                "jurisdictionOfIssueCountryCode" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "jurisdictionOfIssueProvinceStateCode" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "number" : {
+                  "type" : "string",
+                  "maxLength" : 100
+                }
+              },
+              "required" : [ "identifierTypeCode" ]
+            }
+          }
+        },
+        "required" : [ "authorizedPersons", "clientNumber", "customerNumber", "identifications", "registrationIncorporations" ]
+      }
+    },
+    "msgDateTimestamp" : {
+      "type" : "string",
+      "format" : "date-time"
+    },
+    "msgID" : {
+      "type" : "string"
+    },
+    "sourceSystem" : {
+      "type" : "string",
+      "enum" : [ "FLEXCUBE", "LIQ" ]
+    }
+  },
+  "required" : [ "clientDetails", "msgID", "sourceSystem" ]
+}

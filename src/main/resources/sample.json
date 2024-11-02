@@ -1,0 +1,245 @@
+{
+  "clientDetails": [
+    {
+      "authorizedPersons": [
+        {
+          "givenName": "ABCD",
+          "otherNameInitial": "ABCDEFGHIJKL",
+          "surName": "ABCDEFGHIJKLMNO"
+        }
+      ],
+      "clientNumber": "ABCDEFG",
+      "customerNumber": "ABCDEFGHIJKLMN",
+      "identifications": [
+        {
+          "typeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC"
+        },
+        {
+          "typeCode": "Registered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQ"
+        },
+        {
+          "typeCode": "Incorporated",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQRST"
+        },
+        {
+          "typeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNO"
+        }
+      ],
+      "registrationIncorporations": [
+        {
+          "identifierTypeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOPQRS"
+        },
+        {
+          "identifierTypeCode": "Registered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJ"
+        },
+        {
+          "identifierTypeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOPQR"
+        }
+      ],
+      "address": {
+        "addrLine1": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+        "addrLine2": "ABCDEFGHIJKLMNOPQRSTUVW",
+        "city": "ABCDEFGHIJKLMNOPQRS",
+        "countryCode": "",
+        "stateCode": ""
+      },
+      "nameOfEntity": "ABCDEFGHIJKLMNOPQR",
+      "natureOfPrincipalBusiness": "ABCDEFGHIJKLMNO",
+      "registrationIncorporationIndicator": true
+    },
+    {
+      "authorizedPersons": [
+        {
+          "givenName": "ABCDEF",
+          "otherNameInitial": "ABCDEFGHIJKLMNOPQ",
+          "surName": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB"
+        }
+      ],
+      "clientNumber": "ABCDEFGHI",
+      "customerNumber": "ABCDEFGHIJKLMNOP",
+      "identifications": [
+        {
+          "typeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOPQRSTUVWXY"
+        },
+        {
+          "typeCode": "Registered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB"
+        },
+        {
+          "typeCode": "Unknown",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJK"
+        }
+      ],
+      "registrationIncorporations": [
+        {
+          "identifierTypeCode": "Registered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOP"
+        },
+        {
+          "identifierTypeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOP"
+        }
+      ],
+      "address": {
+        "addrLine1": "ABCDE",
+        "addrLine2": "ABCDEFGH",
+        "city": "ABCDEFGHIJKLM",
+        "countryCode": "A",
+        "stateCode": "A"
+      },
+      "nameOfEntity": "ABCDEFG",
+      "natureOfPrincipalBusiness": "ABCDEFGHIJKLMNOPQR",
+      "registrationIncorporationIndicator": false
+    },
+    {
+      "authorizedPersons": [],
+      "clientNumber": "ABCDEFG",
+      "customerNumber": "ABCDEFGHIJKLMNOPQR",
+      "identifications": [
+        {
+          "typeCode": "Incorporated",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOPQRST"
+        }
+      ],
+      "registrationIncorporations": [
+        {
+          "identifierTypeCode": "Unknown",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCD"
+        },
+        {
+          "identifierTypeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDE"
+        },
+        {
+          "identifierTypeCode": "Registered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDE"
+        },
+        {
+          "identifierTypeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFG"
+        }
+      ],
+      "address": {
+        "addrLine1": "ABCDEFGHIJKLMNOPQRSTU",
+        "addrLine2": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+        "city": "ABCDEFGHIJKLMNOPQRSTUV",
+        "countryCode": "",
+        "stateCode": ""
+      },
+      "nameOfEntity": "ABCDEFGHIJ",
+      "natureOfPrincipalBusiness": "ABCDEFGHIJKLMNO",
+      "registrationIncorporationIndicator": false
+    },
+    {
+      "authorizedPersons": [],
+      "clientNumber": "ABCDE",
+      "customerNumber": "ABCDEF",
+      "identifications": [
+        {
+          "typeCode": "Registered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQRSTUV"
+        },
+        {
+          "typeCode": "Incorporated",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJ"
+        },
+        {
+          "typeCode": "Unknown",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNOPQRSTU"
+        },
+        {
+          "typeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "A",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "typeCode": "Unknown",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQR"
+        }
+      ],
+      "registrationIncorporations": [
+        {
+          "identifierTypeCode": "Unknown",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKLMNOPQRSTUVWX"
+        },
+        {
+          "identifierTypeCode": "Unknown",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "",
+          "number": "ABCDEFGHIJKL"
+        },
+        {
+          "identifierTypeCode": "IncorporatedAndRegistered",
+          "jurisdictionOfIssueCountryCode": "",
+          "jurisdictionOfIssueProvinceStateCode": "A",
+          "number": "ABCDEFGHIJKLMNO"
+        }
+      ],
+      "address": {
+        "addrLine1": "ABCDEFGHIJKLMNOPQRSTU",
+        "addrLine2": "ABCDEFGHIJK",
+        "city": "ABCDEFGHIJKLMNOPQRSTU",
+        "countryCode": "",
+        "stateCode": ""
+      },
+      "nameOfEntity": "ABCDEF",
+      "natureOfPrincipalBusiness": "ABCDEFGHIJKLMNOPQRS",
+      "registrationIncorporationIndicator": false
+    }
+  ],
+  "msgID": "sdfdsfasd",
+  "sourceSystem": "FLEXCUBE",
+  "msgDateTimestamp": "ABCDEFGHIJKLMNOPQRSTU"
+}
