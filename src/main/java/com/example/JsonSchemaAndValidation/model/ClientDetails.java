@@ -2,30 +2,35 @@ package com.example.JsonSchemaAndValidation.model;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Data
+@NoArgsConstructor
 @Builder
+@AllArgsConstructor
 public class ClientDetails {
     @NotNull
     @Size(max = 10)
-    public String clientNumber;
+    private String clientNumber;
     @NotNull
     @Size(max = 20)
-    public String customerNumber;
+    private String customerNumber;
     @Size(max = 100)
-    public String nameOfEntity;
-    public Address address;
+    private String nameOfEntity;
+    @NotNull
+    private Address address;
     @Size(max = 200)
-    public String natureOfPrincipalBusiness;
-    public boolean registrationIncorporationIndicator;
+    private String natureOfPrincipalBusiness;
+    private boolean registrationIncorporationIndicator;
     @NotNull
-    public List<RegistrationsIncorporations> registrationIncorporations;
+    private List<RegistrationsIncorporations> registrationIncorporations;
     @NotNull
-    public List<Identifications> identifications;
+    private List<Identifications> identifications;
     @NotNull
-    public List<AuthorizedPersons> authorizedPersons;
+    private List<AuthorizedPersons> authorizedPersons;
 }
